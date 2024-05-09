@@ -1,0 +1,46 @@
+.header {
+    .navbar {
+        padding: $ten $initial $twenty $initial;
+
+        .nav-item {
+            .nav-link {
+                color: $background;
+                font-size: 0.9rem;
+                transition: all 0.5s ease !important;
+                font-family: $font-base;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    border-bottom: $border-bottom-link;
+                }
+            }
+
+            .nav-link.active {
+                border-bottom: $border-bottom-link;
+            }
+        }
+
+        .navbar-toggler {
+            padding: 10px;
+            border: $display-none !important;
+
+            span {
+                i {
+                    color: $background;
+                }
+            }
+        }
+
+        .navbar-nav {
+            @media screen and (max-width: $tablet) {
+                padding: $fifteen;
+            }
+        }
+
+        .btn {
+            margin-top: $five;
+            padding: $ten $twenty-five !important;
+        }
+    }
+}

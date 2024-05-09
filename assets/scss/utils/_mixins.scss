@@ -1,0 +1,12 @@
+@mixin brand {
+    color: $color-button;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: $font-primary;
+}
+
+@mixin text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: $font-base;
+}

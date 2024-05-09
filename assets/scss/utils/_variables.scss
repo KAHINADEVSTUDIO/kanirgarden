@@ -17,9 +17,17 @@ $mobile: 576px;
 $small-tablet: 768px;
 $tablet: 1024px;
 
+// DISPLAY 
+
+$display-none: none;
+
 // BACKGROUND
 
 $transparent: transparent;
+
+// MAX 
+
+$max: 100%;
 
 // FONTS
 
@@ -32,3 +40,17 @@ $font-secondary: "Lato", sans-serif;
 $fixed: fixed; 
 $absolute: absolute;
 $relative: relative;
+
+// SIZE 
+
+$initial: 0;
+$small: 1px; 
+$five: 5px; 
+$ten: 10px; 
+$fifteen: 15px;
+$twenty: 20px; 
+$twenty-five: 25px;
+
+// BORDER
+
+$border-bottom-link: 1px solid $background;

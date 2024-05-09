@@ -1,0 +1,21 @@
+.hero {
+    h1 {
+        margin-top: 5rem;
+
+        @media screen and (max-width: $mobile) {
+            margin-top: 0rem !important;
+        }
+    }
+
+    h1,
+    p {
+        color: $background;
+
+        br {
+            @media screen and (max-width: $mobile) {
+                display: $display-none;
+            }
+        }
+    }
+    
+}

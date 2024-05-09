@@ -1,0 +1,33 @@
+// BACKGROUND 
+
+.bg-dark {
+    background-color: $text !important;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        color: $background !important;
+    }
+}
+
+.background-fixed {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+// BRAND 
+
+.navbar-brand {
+    @include brand;
+}
+
+// MARGIN 
+
+.marg-one {
+    margin-top: $fifteen
+}

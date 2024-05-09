@@ -1,0 +1,45 @@
+.btn {
+    font-size: 14px;
+    font-weight: 600;
+    border: $display-none;
+    padding: $fifteen $twenty-five;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $font-secondary;
+}
+
+.btn-border {
+    color: $color-button;
+    border: 1px solid $color-button;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $background;
+        background-color: $background-button;
+    }
+}
+
+.btn-dark {
+    color: $color-button;
+    background-color: $text;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $text;
+        background-color: $background;
+    }
+}
+
+.btn-primary {
+    color: $background;
+    background-color: $primary;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $accent;
+        background-color: $color-button;
+    }
+}
