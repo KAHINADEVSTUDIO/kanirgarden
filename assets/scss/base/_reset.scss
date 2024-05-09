@@ -1,0 +1,12 @@
+* {
+    margin: $initial;
+    padding: $initial;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $background;
+}
