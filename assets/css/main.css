@@ -149,6 +149,19 @@ p {
   margin-top: 5px;
   padding: 10px 25px !important;
 }
+@media screen and (max-width: 1024px) {
+  .header .navbar .btn {
+    display: none;
+  }
+}
+.header .navbar .nav-shop {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .header .navbar .nav-shop {
+    display: block;
+  }
+}
 
 .footer {
   padding: 80px 0;
