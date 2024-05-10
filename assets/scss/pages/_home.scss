@@ -1,6 +1,12 @@
 .hero-home {
-    height: 92vh;
-    background-image: url("../../../assets/img/banner/purple-spa.png");
+    margin-bottom: 5rem;
+    img {
+        top: $initial;
+        height: 105vh;
+        width: $max;
+        z-index: -3;
+        position: $absolute;
+    }
 }
 
 .penser {
