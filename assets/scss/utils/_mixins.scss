@@ -3,6 +3,12 @@
     font-size: 20px;
     font-weight: 600;
     font-family: $font-primary;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $color-button !important;
+    }
 }
 
 @mixin text {

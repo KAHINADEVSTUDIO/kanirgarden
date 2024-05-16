@@ -1,0 +1,22 @@
+.founders {
+    img {
+        width: 50%;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 1.9rem;
+        margin-bottom: $twenty;
+        padding: $twenty $initial;
+        border-bottom: $border-dark;
+    }
+
+    span {
+        color: $secondary !important;
+    }
+
+    p {
+        margin-top: $twenty;
+    }
+}

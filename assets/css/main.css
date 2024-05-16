@@ -37,6 +37,9 @@
   font-weight: 600;
   font-family: "Playfair Display", serif;
 }
+.navbar-brand:hover, .navbar-brand:focus, .navbar-brand:active {
+  color: #EDD0BF !important;
+}
 
 .marg-one {
   margin-top: 15px;
@@ -186,7 +189,7 @@ q strong {
   margin-top: 5px;
   padding: 10px 25px !important;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 576px) {
   .header .navbar .btn {
     display: none;
   }
@@ -194,7 +197,7 @@ q strong {
 .header .navbar .nav-shop {
   display: none;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 576px) {
   .header .navbar .nav-shop {
     display: block;
   }
@@ -392,6 +395,7 @@ q strong {
   .introduction-history .person {
     height: 400px;
     width: 100% !important;
+    margin-top: 0px !important;
     margin-bottom: 20px !important;
     position: relative !important;
   }
@@ -400,9 +404,12 @@ q strong {
   .introduction-history .person {
     width: 50%;
     right: 0px !important;
+    margin-top: -5%;
   }
 }
 .introduction-history h2 {
+  z-index: 3;
+  position: relative;
   color: #925489 !important;
   margin: 20px 0;
 }
@@ -432,6 +439,24 @@ q strong {
 
 .values .bg-secondary {
   border: none !important;
+}
+
+.founders img {
+  width: 50%;
+}
+.founders h1,
+.founders h2,
+.founders h3 {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #251439;
+}
+.founders span {
+  color: #774a82 !important;
+}
+.founders p {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

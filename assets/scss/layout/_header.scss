@@ -42,7 +42,7 @@
             margin-top: $five;
             padding: $ten $twenty-five !important;
 
-            @media screen and (max-width: $tablet) {
+            @media screen and (max-width: $mobile) {
                 display: $display-none;
             }
         }
@@ -50,7 +50,7 @@
         .nav-shop {
             display: $display-none;
 
-            @media screen and (max-width: $tablet) {
+            @media screen and (max-width: $mobile) {
                 display: $display-block;
             }
         }

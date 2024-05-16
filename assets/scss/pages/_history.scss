@@ -8,6 +8,7 @@
         @media screen and (max-width: $mobile) {
             height: 400px;
             width: $max !important;
+            margin-top: 0px !important;
             margin-bottom: $twenty !important;
             position: $relative !important;
         }
@@ -15,10 +16,13 @@
         @media screen and (max-width: $tablet) {
             width: 50%;
             right: 0px !important;
+            margin-top: -5%;
         }
     }
 
     h2 {
+        z-index: 3;
+        position: $relative;
         color: $accent !important;
         margin: $twenty $initial;
 
