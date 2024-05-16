@@ -15,4 +15,12 @@
             color: $background;
         }
     }
+
+    p {
+        br {
+            @media screen and (max-width: $mobile) {
+                display: $display-none;
+            }
+        }
+    }
 }

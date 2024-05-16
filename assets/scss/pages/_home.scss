@@ -1,11 +1,14 @@
 .hero-home {
     margin-bottom: 5rem;
+    @media screen and (max-width: $mobile) {
+        margin-bottom: 15rem;
+    }
     img {
-        top: $initial;
+        top: $initial !important;
         height: 105vh;
         width: $max;
         z-index: -3;
-        position: $absolute;
+        position: $absolute !important;
     }
 }
 

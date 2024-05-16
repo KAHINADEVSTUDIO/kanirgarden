@@ -186,6 +186,11 @@ p {
 .footer a:hover, .footer a:focus, .footer a:active {
   color: #f2f2f2;
 }
+@media screen and (max-width: 576px) {
+  .footer p br {
+    display: none;
+  }
+}
 
 .btn {
   font-size: 14px;
@@ -265,12 +270,17 @@ p {
 .hero-home {
   margin-bottom: 5rem;
 }
+@media screen and (max-width: 576px) {
+  .hero-home {
+    margin-bottom: 15rem;
+  }
+}
 .hero-home img {
-  top: 0;
+  top: 0 !important;
   height: 105vh;
   width: 100%;
   z-index: -3;
-  position: absolute;
+  position: absolute !important;
 }
 
 .penser img {
