@@ -43,3 +43,15 @@
         background-color: $color-button;
     }
 }
+
+.btn-secondary {
+    color: $background;
+    background-color: $secondary;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $background;
+        background-color: $primary;
+    }
+}

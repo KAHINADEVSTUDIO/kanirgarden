@@ -1,0 +1,46 @@
+.nav-tabs {
+    border-bottom: 1px solid $background;
+
+    .nav-link {
+        color: $background;
+        font-size: 22px !important;
+        border: $display-none;
+        border-radius: $initial;
+        font-family: $font-secondary;
+    }
+
+    .nav-link.active {
+        color: $background;
+        background-color: $accent;
+    }
+}
+
+.tab-content {
+    margin-top: 35px;
+
+    h3 {
+        color: $background !important;
+        font-size: 40px !important;
+        margin-bottom: $twenty;
+    }
+
+    blockquote,
+    p {
+        color: $background;
+        font-size: 1.2rem !important;
+    }
+
+    blockquote {
+        @include text;
+        padding-left: $twenty;
+        border-left: 1px solid $background;
+    }
+
+    .ct-tab {
+        padding: $twenty-five;
+
+        @media screen and (max-width: $mobile) {
+            padding: $twenty-five $initial !important;
+        }
+    }
+}

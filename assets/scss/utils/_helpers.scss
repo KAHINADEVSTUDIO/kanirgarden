@@ -31,3 +31,9 @@
 .marg-one {
     margin-top: $fifteen
 }
+
+// FONTS
+
+.subtitle {
+    @include subtitle;
+}

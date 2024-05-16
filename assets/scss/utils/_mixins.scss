@@ -10,3 +10,9 @@
     font-weight: 300;
     font-family: $font-base;
 }
+
+@mixin subtitle {
+    font-size: $twenty-five !important;
+    letter-spacing: 2px;
+    font-family: $font-secondary;
+}

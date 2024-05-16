@@ -53,10 +53,15 @@ small {
     font-size: 0.707rem;
 }
 
-p {
+p,
+q {
     @include text;
 
     @media screen and (max-width: $mobile) {
         text-align: justify;
+    }
+
+    strong {
+        font-weight: 700;
     }
 }
