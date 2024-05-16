@@ -444,6 +444,11 @@ q strong {
 .founders img {
   width: 50%;
 }
+@media screen and (max-width: 576px) {
+  .founders img {
+    width: 80% !important;
+  }
+}
 .founders h1,
 .founders h2,
 .founders h3 {

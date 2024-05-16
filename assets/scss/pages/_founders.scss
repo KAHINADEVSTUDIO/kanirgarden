@@ -1,6 +1,10 @@
 .founders {
     img {
         width: 50%;
+
+        @media screen and (max-width: $mobile) {
+            width: 80% !important;
+        }
     }
 
     h1,
