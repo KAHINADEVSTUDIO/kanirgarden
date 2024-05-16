@@ -1,44 +1,55 @@
-.introduction-history,
-.center,
-.citation {
-    background-color: $text;
+.introduction-history {
+    .person {
+        width: 30%;
+        height: 800px;
+        margin-left: -22%;
+        position: $absolute;
 
-    h1, 
-    q {
-        color: $background;
+        @media screen and (max-width: $mobile) {
+            height: 400px;
+            width: $max !important;
+            margin-bottom: $twenty !important;
+            position: $relative !important;
+        }
+
+        @media screen and (max-width: $tablet) {
+            width: 50%;
+            right: 0px !important;
+        }
     }
 
     h2 {
-        color: $primary;
+        color: $accent !important;
         margin: $twenty $initial;
+
+        @media screen and (max-width: $mobile) {
+            font-size: 20px !important;
+        }
     }
 }
 
-.beginning {
+.fondation,
+.products,
+.join {
+    h2,
+    h3 {
+        margin-bottom: 35px;
+    }
+}
+
+.products,
+.animals {
     .content {
-        padding: $twenty-five;
-
-        h2 {
-            font-size: 3.5rem;
-            margin-bottom: $twenty-five;
-        }
+        padding: 50px $twenty;
     }
+}
 
-    .buttons {
-        width: $max;
-        margin-left: 0%;
-        margin-top: 30px;
-        position: $absolute;
-    }
+.citation {
+    font-size: 2rem;
+}
 
-    .carousel-control-prev,
-    .carousel-control-next {
-        position: $absolute;
-
-        .prev-icon,
-        .next-icon {
-            color: $accent;
-            font-size: $twenty;
-        }
+.values {
+    .bg-secondary {
+        border: $display-none !important;
     }
 }

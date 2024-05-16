@@ -1,14 +1,28 @@
-.bg-dark {
-  background-color: #251439 !important;
-}
 .bg-dark h1,
 .bg-dark h2,
 .bg-dark h3,
 .bg-dark h4,
 .bg-dark h5,
 .bg-dark h6,
-.bg-dark p {
+.bg-dark p,
+.bg-dark q,
+.bg-secondary h1,
+.bg-secondary h2,
+.bg-secondary h3,
+.bg-secondary h4,
+.bg-secondary h5,
+.bg-secondary h6,
+.bg-secondary p,
+.bg-secondary q {
   color: #f2f2f2 !important;
+}
+
+.bg-dark {
+  background-color: #251439 !important;
+}
+
+.bg-secondary {
+  background-color: #774a82 !important;
 }
 
 .background-fixed {
@@ -31,6 +45,7 @@
 .subtitle {
   font-size: 25px !important;
   letter-spacing: 2px;
+  text-transform: uppercase;
   font-family: "Lato", sans-serif;
 }
 
@@ -103,11 +118,11 @@ h2 {
 }
 
 h3 {
-  font-size: 3.827rem;
+  font-size: 3.896rem;
 }
 @media screen and (max-width: 576px) {
   h3 {
-    font-size: 2.9rem !important;
+    font-size: 2.899rem !important;
   }
 }
 
@@ -229,7 +244,7 @@ q strong {
 }
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
   color: #251439;
-  background-color: #f2f2f2;
+  background-color: #EDD0BF;
 }
 
 .btn-primary {
@@ -286,6 +301,15 @@ q strong {
 }
 .card-products img:hover, .card-products img:focus, .card-products img:active {
   opacity: 1;
+}
+
+.card-value {
+  padding: 35.5px;
+  margin-top: 2.2rem;
+  border: 1px solid #251439;
+}
+.card-value h4 {
+  font-size: 3rem;
 }
 
 .nav-tabs {
@@ -358,49 +382,56 @@ q strong {
   }
 }
 
-.introduction-history,
-.center,
-.citation {
-  background-color: #251439;
+.introduction-history .person {
+  width: 30%;
+  height: 800px;
+  margin-left: -22%;
+  position: absolute;
 }
-.introduction-history h1,
-.introduction-history q,
-.center h1,
-.center q,
-.citation h1,
-.citation q {
-  color: #f2f2f2;
+@media screen and (max-width: 576px) {
+  .introduction-history .person {
+    height: 400px;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+    position: relative !important;
+  }
 }
-.introduction-history h2,
-.center h2,
-.citation h2 {
-  color: #532b5e;
+@media screen and (max-width: 1024px) {
+  .introduction-history .person {
+    width: 50%;
+    right: 0px !important;
+  }
+}
+.introduction-history h2 {
+  color: #925489 !important;
   margin: 20px 0;
 }
+@media screen and (max-width: 576px) {
+  .introduction-history h2 {
+    font-size: 20px !important;
+  }
+}
 
-.beginning .content {
-  padding: 25px;
+.fondation h2,
+.fondation h3,
+.products h2,
+.products h3,
+.join h2,
+.join h3 {
+  margin-bottom: 35px;
 }
-.beginning .content h2 {
-  font-size: 3.5rem;
-  margin-bottom: 25px;
+
+.products .content,
+.animals .content {
+  padding: 50px 20px;
 }
-.beginning .buttons {
-  width: 100%;
-  margin-left: 0%;
-  margin-top: 30px;
-  position: absolute;
+
+.citation {
+  font-size: 2rem;
 }
-.beginning .carousel-control-prev,
-.beginning .carousel-control-next {
-  position: absolute;
-}
-.beginning .carousel-control-prev .prev-icon,
-.beginning .carousel-control-prev .next-icon,
-.beginning .carousel-control-next .prev-icon,
-.beginning .carousel-control-next .next-icon {
-  color: #925489;
-  font-size: 20px;
+
+.values .bg-secondary {
+  border: none !important;
 }
 
 /*# sourceMappingURL=main.css.map */

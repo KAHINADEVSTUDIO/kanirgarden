@@ -14,5 +14,6 @@
 @mixin subtitle {
     font-size: $twenty-five !important;
     letter-spacing: 2px;
+    text-transform: uppercase;
     font-family: $font-secondary;
 }
